@@ -1,0 +1,9 @@
+PySide2==5.12.6
+PyInstaller
+python-slugify
+tqdm
+matplotlib
+cryptography
+paramiko
+hurry
+slugify
