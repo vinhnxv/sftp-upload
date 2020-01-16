@@ -30,6 +30,7 @@ pip install -r requirements.txt
 ### Build UI
 ```
 pyside2-uic -x design/login.ui  -o design/login.py
+pyside2-uic -x design/uploader.ui  -o design/uploader.py
 ```
 
 ### Run  
@@ -55,7 +56,7 @@ sudo adduser --shell /bin/false vinhnx
 ### Step 2 – Create Directory for SFTP
 Now, create the directory structure to be accessible by sftp user.
 ```bash
-sudo mkdir -p /var/vinhnx/files
+sudo mkdir -p /var/vinhnx/upload
 ```
 
 Change the ownership of the files directory to sftp user. So that sftp user can read and write on this directory.
