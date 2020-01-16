@@ -3,7 +3,7 @@
 ## Required environment
 * Qt 5.12.6
 * python 3.7.6
-* [virtualenv][2]
+* virtualenv
 
 
 ## Installation
